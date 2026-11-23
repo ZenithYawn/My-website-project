@@ -3,149 +3,282 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dota 2 — Огляд легендарної гри</title>
+    <title>Dota 2 — Огляд гри, герої, атрибути та кіберспорт</title>
+    <meta name="description" content="Інформаційний портал про Dota 2: опис командної MOBA-гри від Valve, ключові особливості, етапи матчу, таблиця атрибутів героїв, галерея та зворотний зв'язок.">
+    <meta name="keywords" content="Dota 2, MOBA, Valve, герої Dota 2, атрибути героїв, Рошан, The International">
+    <meta name="author" content="Студент-розробник">
+    <meta property="og:title" content="Dota 2 — Огляд гри, герої, атрибути та кіберспорт">
+    <meta property="og:description" content="Огляд ігрового світу Dota 2: правила протистояння Radiant і Dire, класифікація атрибутів героїв та головні локації.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg">
+    <link rel="icon" href="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/570/d4f836839254be08d8e9dd333ecc9a01782c26d2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Dota 2: Світ стратегії, магії та кіберспорту</h1>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="#top" class="logo">Dota 2</a>
+            <nav class="main-nav" aria-label="Головне меню сайту">
+                <ul class="nav-list">
+                    <li><a href="#about">Про гру</a></li>
+                    <li><a href="#features">Особливості</a></li>
+                    <li><a href="#attributes">Атрибути</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#feedback">Відгук</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <img
-        src="https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg"
-        alt="Офіційний постер гри Dota 2 із героями та логотипом гри"
-        width="690"
-        height="322"
-    >
+    <main id="main-content" class="container">
 
-    <hr>
+        <section id="top" class="card hero-section">
+            <h1 id="page-title">Dota 2: Світ стратегії, магії та кіберспорту</h1>
 
-    <h2>Про гру Dota 2</h2>
-    <p>
-        <strong>Dota 2</strong> (<em>Defense of the Ancients 2</em>) — це багатокористувацька командна комп'ютерна гра
-        в жанрі <strong>MOBA</strong> (багатокористувацька онлайн бойова арена), розроблена та видана корпорацією
-        Valve. Гра є прямим продовженням легендарної карти DotA для Warcraft III.
-    </p>
-    <p>
-        У кожному матчі беруть участь дві команди по п'ять гравців: <em>Сили Світла (Radiant)</em> та
-        <em>Сили Пітьми (Dire)</em>. Головна мета кожної команди — захистити власну головну споруду
-        (<strong>Трон або Ancient</strong>) та знищити головну фортецю суперника, використовуючи унікальні
-        здібності героїв, тактику та командну взаємодію.
-    </p>
+            <img
+                src="https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg"
+                alt="Офіційний постер гри Dota 2 із головними героями та логотипом на червоно-темному фоні"
+                width="690"
+                height="322"
+            >
+        </section>
 
-    <p>
-        Дізнатися більше про актуальні оновлення, патчі та список усіх героїв можна на
-        <a href="https://www.dota2.com/home" target="_blank">офіційному сайті Dota 2</a>
-        або прочитати детальну історію гри у
-        <a href="https://uk.wikipedia.org/wiki/Dota_2" target="_blank">статті на Вікіпедії</a>.
-    </p>
+        <section id="about" class="card theme-section">
+            <h2 class="section-title">Про гру Dota 2</h2>
+            <p class="intro">
+                <strong>Dota 2</strong> (<em>Defense of the Ancients 2</em>) — це багатокористувацька командна комп'ютерна гра
+                в жанрі <strong>MOBA</strong> (багатокористувацька онлайн бойова арена), розроблена та видана корпорацією
+                <span class="highlight">Valve</span>. Гра є прямим продовженням легендарної карти DotA для Warcraft III.
+            </p>
+            <p>
+                У кожному матчі беруть участь дві команди по п'ять гравців: <em>Сили Світла (Radiant)</em> та
+                <em>Сили Пітьми (Dire)</em>. Головна мета кожної команди — захистити власну головну споруду
+                (<strong>Трон або Ancient</strong>) та знищити головну фортецю суперника, використовуючи унікальні
+                здібності героїв, тактику та командну взаємодію.
+            </p>
+            <p>
+                Дізнатися більше про актуальні оновлення, патчі та список усіх героїв можна на
+                <a href="https://www.dota2.com/home" target="_blank" rel="noopener noreferrer">офіційному сайті Dota 2</a>
+                або прочитати детальну історію гри у
+                <a href="https://uk.wikipedia.org/wiki/Dota_2" target="_blank" rel="noopener noreferrer">статті на Вікіпедії</a>.
+            </p>
 
-    <hr>
+            <aside class="info-note" aria-label="Цікавий факт про Dota 2">
+                <h3>Цікавий факт</h3>
+                <p>
+                    Слово «Dota» походить від абревіатури <strong>Defense of the Ancients</strong> — назви користувацької модифікації
+                    2003 року, яка фактично сформувала сучасний кіберспортивний жанр MOBA та заклала основи командної стратегії 5 на 5.
+                </p>
+            </aside>
+        </section>
 
-    <h2>Ключові особливості гри</h2>
-    <ul>
-        <li><strong>Понад 120 унікальних героїв</strong> — кожен персонаж має неповторний набір активних і пасивних здібностей.</li>
-        <li><strong>Безкоштовний доступ (Free-to-Play)</strong> — усі герої доступні одразу після встановлення гри без жодних обмежень.</li>
-        <li><strong>Глибока економічна система</strong> — гравці заробляють золото за добивання крипів та знищення веж, щоб купувати артефакти.</li>
-        <li><strong>Динамічна зміна дня і ночі</strong> — впливає на радіус огляду героїв та роботу окремих умінь.</li>
-        <li><strong>Головний турнір The International</strong> — щорічний чемпіонат світу з багатомільйонним призовим фондом.</li>
-    </ul>
+        <section id="features" class="card theme-section">
+            <h2 class="section-title">Ключові особливості гри</h2>
+            <ul class="feature-list">
+                <li><strong>Понад 120 унікальних героїв</strong> — кожен персонаж має неповторний набір активних і пасивних здібностей.</li>
+                <li><strong>Безкоштовний доступ (Free-to-Play)</strong> — усі герої доступні одразу після встановлення гри без жодних обмежень.</li>
+                <li><strong>Глибока економічна система</strong> — гравці заробляють золото за добивання крипів та знищення веж, щоб купувати артефакти.</li>
+                <li><strong>Динамічна зміна дня і ночі</strong> — впливає на радіус огляду героїв та роботу окремих умінь.</li>
+                <li><strong>Головний турнір <span class="highlight">The International</span></strong> — щорічний чемпіонат світу з багатомільйонним призовим фондом.</li>
+            </ul>
 
-    <h2>Етапи перемоги в класичному матчі</h2>
-    <ol>
-        <li><strong>Стадія драфту (вибору героїв):</strong> команди по черзі обирають і забороняють персонажів, формуючи збалансований склад.</li>
-        <li><strong>Стадія ліній (Laning Stage):</strong> перші 10–15 хвилин гри, де герої здобувають досвід та початкове золото на трьох лініях.</li>
-        <li><strong>Середня гра (Mid Game):</strong> активні командні сутички, контроль рун та захоплення ключових об'єктів на карті.</li>
-        <li><strong>Битва за Рошана:</strong> перемога над нейтральним босом Рошаном дає команді <em>Aegis of the Immortal</em> (друге життя).</li>
-        <li><strong>Фінальний штурм бази:</strong> руйнування казарм, захисних веж та знищення ворожого Ancient для перемоги.</li>
-    </ol>
+            <hr>
 
-    <hr>
+            <h2 class="section-title">Етапи перемоги в класичному матчі</h2>
+            <ol class="steps-list">
+                <li><strong>Стадія драфту (вибору героїв):</strong> команди по черзі обирають і забороняють персонажів, формуючи збалансований склад.</li>
+                <li><strong>Стадія ліній (Laning Stage):</strong> перші 10–15 хвилин гри, де герої здобувають досвід та початкове золото на трьох лініях.</li>
+                <li><strong>Середня гра (Mid Game):</strong> активні командні сутички, контроль рун та захоплення ключових об'єктів на карті.</li>
+                <li><strong>Битва за Рошана:</strong> перемога над нейтральним босом Рошаном дає команді <em>Aegis of the Immortal</em> (<span class="highlight">друге життя</span>).</li>
+                <li><strong>Фінальний штурм бази:</strong> руйнування казарм, захисних веж та знищення ворожого Ancient для перемоги.</li>
+            </ol>
+        </section>
 
-    <h2>Класифікація атрибутів героїв у Dota 2</h2>
-    <p>Усі персонажі в грі поділяються на чотири основні категорії залежно від їхнього головного атрибута:</p>
+        <section id="attributes" class="card theme-section">
+            <h2 class="section-title">Класифікація атрибутів героїв у Dota 2</h2>
+            <p>Усі персонажі в грі поділяються на чотири основні категорії залежно від їхнього головного атрибута:</p>
 
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Атрибут</th>
-                <th>Бонус за 1 одиницю</th>
-                <th>Типова роль у команді</th>
-                <th>Приклади героїв</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Сила (Strength)</strong></td>
-                <td>+22 до здоров'я та +0.1 до регенерації здоров'я</td>
-                <td>Танк, ініціатор бою (Офлейнер)</td>
-                <td>Axe, Sven, Pudge, Earthshaker</td>
-            </tr>
-            <tr>
-                <td><strong>Спритність (Agility)</strong></td>
-                <td>+1 до швидкості атаки та +0.167 до броні</td>
-                <td>Основний фізичний урон (Керрі)</td>
-                <td>Juggernaut, Phantom Assassin, Anti-Mage</td>
-            </tr>
-            <tr>
-                <td><strong>Інтелект (Intelligence)</strong></td>
-                <td>+12 до мани, +0.05 до регенерації мани та +0.1% опору магії</td>
-                <td>Підтримка (Саппорт), маг на центральній лінії</td>
-                <td>Crystal Maiden, Invoker, Lion, Zeus</td>
-            </tr>
-            <tr>
-                <td><strong>Універсал (Universal)</strong></td>
-                <td>+0.7 до базової шкоди від атаки за кожен із трьох атрибутів</td>
-                <td>Гнучка роль залежно від збірки предметів</td>
-                <td>Windranger, Void Spirit, Abaddon, Marci</td>
-            </tr>
-        </tbody>
-    </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Атрибут</th>
+                        <th>Бонус за 1 одиницю</th>
+                        <th>Типова роль у команді</th>
+                        <th>Приклади героїв</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Сила (Strength)</strong></td>
+                        <td>+22 до здоров'я та +0.1 до регенерації здоров'я</td>
+                        <td>Танк, ініціатор бою (Офлейнер)</td>
+                        <td>Axe, Sven, Pudge, Earthshaker</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Спритність (Agility)</strong></td>
+                        <td>+1 до швидкості атаки та +0.167 до броні</td>
+                        <td>Основний фізичний урон (Керрі)</td>
+                        <td>Juggernaut, Phantom Assassin, Anti-Mage</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Інтелект (Intelligence)</strong></td>
+                        <td>+12 до мани, +0.05 до регенерації мани та +0.1% опору магії</td>
+                        <td>Підтримка (Саппорт), маг на центральній лінії</td>
+                        <td>Crystal Maiden, Invoker, Lion, Zeus</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Універсал (Universal)</strong></td>
+                        <td>+0.7 до базової шкоди від атаки за кожен із трьох атрибутів</td>
+                        <td>Гнучка роль залежно від збірки предметів</td>
+                        <td>Windranger, Void Spirit, Abaddon, Marci</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-    <hr>
+        <section id="gallery" class="card theme-section">
+            <h2 class="section-title">Галерея світу Dota 2</h2>
+            <h3>Основні локації, боси та турніри</h3>
+            <p>Основні локації, артефакти та події ігрового світу:</p>
 
-    <h2>Галерея світу Dota 2</h2>
-    <p>Основні локації, артефакти та події ігрового світу:</p>
+            <div class="grid-gallery">
+                <article class="gallery-item">
+                    <img
+                        src="https://media.cyberscore.live/static/posts/2025/6/db9ebb1c-37bd-4e31-9751-5e3a084b0227.webp"
+                        alt="Протистояння Сил Світла (Radiant) та Сил Пітьми (Dire) на ігровій карті Dota 2"
+                        width="520"
+                        height="292"
+                    >
+                    <p><strong>Сили Світла (Radiant) та Сили Пітьми (Dire)</strong> — вічне протистояння двох сторін.</p>
+                </article>
 
-    <p>
-        <img
-            src="https://media.cyberscore.live/static/posts/2025/6/db9ebb1c-37bd-4e31-9751-5e3a084b0227.webp"
-            alt="Протистояння Сил Світла (Radiant) та Сил Пітьми (Dire) у світі Dota 2"
-            width="520"
-            height="292"
-        ><br>
-        <strong>Сили Світла (Radiant) та Сили Пітьми (Dire)</strong> — вічне протистояння двох сторін.
-    </p>
+                <article class="gallery-item">
+                    <img
+                        src="https://www.hotspawn.com/wp-content/uploads/2025/07/Dota-2-Patch-7.38-new-map-1-1-1125x633.jpg"
+                        alt="Оновлена арена битви героїв Dota 2 із річкою та лініями між фортецями Radiant і Dire"
+                        width="520"
+                        height="292"
+                    >
+                    <p><strong>Битва Древніх (Battle of the Ancients)</strong> — командні сутички на полі бою.</p>
+                </article>
 
-    <p>
-        <img
-            src="https://www.hotspawn.com/wp-content/uploads/2025/07/Dota-2-Patch-7.38-new-map-1-1-1125x633.jpg"
-            alt="Арена битви героїв Dota 2 між фортецями Radiant і Dire"
-            width="520"
-            height="292"
-        ><br>
-        <strong>Битва Древніх (Battle of the Ancients)</strong> — командні сутички на полі бою.
-    </p>
+                <article class="gallery-item">
+                    <span class="badge">Бос карти</span>
+                    <img
+                        src="https://cdn.steamstatic.com/apps/dota2/images/dota_react//patch738/map_updates/roshan.jpg"
+                        alt="Могутній нейтральний бос Рошан у своєму лігві на карті Dota 2"
+                        width="420"
+                        height="420"
+                    >
+                    <p><strong>Roshan</strong> — легендарний монстр, Рошан.</p>
+                </article>
 
-    <p>
-        <img
-            src="https://cdn.steamstatic.com/apps/dota2/images/dota_react//patch738/map_updates/roshan.jpg"
-            alt="Рошан"
-            width="420"
-            height="420"
-        ><br>
-        <strong>Roshan</strong> — легендарний монстр, Рошан.
-    </p>
+                <article class="gallery-item">
+                    <img
+                        src="https://clan.fastly.steamstatic.com/images/3703047/882f6398bbe0c283cb33d57a3c18160c5d5a9f00.png"
+                        alt="Офіційна ілюстрація щорічного чемпіонату світу з Dota 2 — The International з трофеєм Aegis"
+                        width="520"
+                        height="292"
+                    >
+                    <p><strong>The International</strong> — головний щорічний кіберспортивний чемпіонат світу з Dota 2.</p>
+                </article>
+            </div>
+        </section>
 
-    <p>
-        <img
-            src="https://clan.fastly.steamstatic.com/images/3703047/882f6398bbe0c283cb33d57a3c18160c5d5a9f00.png"
-            alt="Офіційна ілюстрація чемпіонату світу з Dota 2 — The International"
-            width="520"
-            height="292"
-        ><br>
-        <strong>The International</strong> — головний щорічний кіберспортивний чемпіонат світу з Dota 2.
-    </p>
+        <section id="feedback" class="card theme-section">
+            <h2 class="section-title">Відгук гравця та зв'язок із редакцією</h2>
+            <p class="feedback-lead">Поділіться враженнями про гру, улюбленим атрибутом героїв або запропонуйте тему для наступного огляду:</p>
 
-    <hr>
+            <form class="feedback-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="user-name">Ваше ім'я або ігровий нікнейм</label>
+                    <input
+                        type="text"
+                        id="user-name"
+                        name="user_name"
+                        placeholder="Наприклад: Олександр або InvokerMain"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="user-email">Електронна пошта</label>
+                    <input
+                        type="email"
+                        id="user-email"
+                        name="user_email"
+                        placeholder="player@example.com"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="hero-attribute">Ваш улюблений атрибут героїв у Dota 2</label>
+                    <select id="hero-attribute" name="hero_attribute" required>
+                        <option value="" disabled selected>--- Оберіть атрибут ---</option>
+                        <option value="strength">Сила (Strength) — танки та ініціатори</option>
+                        <option value="agility">Спритність (Agility) — герої фізичної шкоди</option>
+                        <option value="intelligence">Інтелект (Intelligence) — маги та саппорти</option>
+                        <option value="universal">Універсал (Universal) — гібридні герої</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <span class="group-title">Бажаний спосіб відповіді</span>
+                    <div class="radio-option">
+                        <input
+                            type="radio"
+                            id="contact-email"
+                            name="contact_method"
+                            value="email"
+                            checked
+                        >
+                        <label for="contact-email" class="inline-label">Відповісти на електронну пошту</label>
+                    </div>
+                    <div class="radio-option">
+                        <input
+                            type="radio"
+                            id="contact-site"
+                            name="contact_method"
+                            value="digest"
+                        >
+                        <label for="contact-site" class="inline-label">Опублікувати відповідь у добірці читачів</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="user-message">Ваш відгук або пропозиція</label>
+                    <textarea
+                        id="user-message"
+                        name="user_message"
+                        rows="4"
+                        placeholder="Напишіть, про якого героя, артефакт чи турнір ви хотіли б прочитати детальніше..."
+                    ></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <input
+                        type="checkbox"
+                        id="terms"
+                        name="terms"
+                        required
+                    >
+                    <label for="terms" class="inline-label">Я погоджуюсь на обробку введених даних для зворотного зв'язку</label>
+                </div>
+
+                <button type="submit">Надіслати відгук</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="container site-footer">
+        <p>Dota 2 Fan Portal — Інформаційний огляд всесвіту Defense of the Ancients 2 (2026). Усі права на гру належать Valve Corporation.</p>
+        <p>Контакти редакції порталу: <a href="mailto:info@dota2portal.example">info@dota2portal.example</a></p>
+    </footer>
+
+    <a href="#top" class="back-to-top" title="На початок сторінки" aria-label="Повернутися на початок сторінки">&#8593;</a>
 
 </body>
 </html>
